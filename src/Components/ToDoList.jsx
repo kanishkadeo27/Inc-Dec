@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
 
 function ToDoList() {
   const [num, setNum] = useState(0);
@@ -21,8 +23,8 @@ function ToDoList() {
         <div className="center-div">
           <h1>{num}</h1>
           <div className="button-div">
-            <button onClick={incFn}>Increment</button>
-            <button onClick={decFn}>Decrement</button>
+            <button onClick={incFn}><AddIcon/></button>
+            <button onClick={decFn}><RemoveIcon/></button>
           </div>
         </div>
       </div>
