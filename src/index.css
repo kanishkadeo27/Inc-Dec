@@ -64,6 +64,13 @@ button {
 button:hover {
   background-color: #779cc7;
 }
+
+.btn-green:hover{
+  color: #2ed573;
+}
+.btn-red:hover{
+  color: #ff4757;
+}
 @media (max-width: 1024px) {
   .center-div {
     width: 55%;
@@ -77,7 +84,6 @@ button:hover {
     margin-right: auto;
   }
   button {
-    
     width: 120px;
     min-height: 20px;
     border-radius: 5%;
