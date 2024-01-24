@@ -11,7 +11,7 @@ function ToDoList() {
     if (num>0) {
         setNum(num-1);
     } else {
-        alert("oops you can't decrement below 0");
+        alert("oops!!sorry but you can't decrement below 0");
         setNum(0);
     }
   }
